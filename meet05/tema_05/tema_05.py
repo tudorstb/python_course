@@ -293,4 +293,11 @@ print(is_prime(8))
 
 #22
 print("\tEX_22")
+def list_of_primes_in_interval(start,stop):
+    list_of_prime=[]
+    for i in range(start,stop+1):
+        if is_prime(i)==True:
+            list_of_prime.append(i)
+    return list_of_prime
 
+print(list_of_primes_in_interval(3,31))
