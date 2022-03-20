@@ -221,8 +221,17 @@ print(sum_to_nr(4))
 print(sum_to_nr(3))
 
 #16
+nume_fete_fara_a=['Agnes','April','Beatrice','Brigitte','Celine','Edit','Erin','Ingrid','Iris','Miriam',"Naomi",'Noemi','Odette','Zoe']
 print("\tEX_16")
+def g_b(name):
+    if name[len(name)-1]=='a' or (name in nume_fete_fara_a):
+        print(f'"{name}" este nume de fata')
+    else:
+        print(f'"{name}" este nume de baiat')
 
+g_b("Tudor")
+g_b("Ana")
+g_b('Edit')
 
 #17
 print("\tEX_17")
