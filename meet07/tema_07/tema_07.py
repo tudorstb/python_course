@@ -63,3 +63,6 @@ def colturi_test(forma):
 
 colturi_test(new_circle)
 colturi_test(new_square)
+
+#github link
+#TODO https://github.com/tudorstb/python_course
